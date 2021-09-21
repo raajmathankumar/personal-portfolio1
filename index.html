@@ -9,7 +9,25 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
-   
+   <style>
+       .content-details{
+           border: 1px solid blue;
+       }
+       .content-work-experience{
+        border: 1px solid red; 
+       }
+       .content{
+           border: 1px solid rgb(255, 47, 64);
+       }
+       #left{
+           float: left;
+           width: 50%;
+       }
+       #right{
+           float: right;
+           width: 50%;
+       }
+   </style>
 </head>
                  
 <body>
@@ -36,36 +54,40 @@
 
               <!--MAin content-->
 
-    <div id="main-content">
-<div id="left">
-
-<div class="content-education">
-    <div class="education">
-        <h1>EDUCATION</h1>
+<div id="main-content">
+ <div id="left">
+     <div class="content">
+    <h1>EDUCATION</h1>
+  <div class="content-details">
+    
+    <div class="content-details">
+        
         <h4>J J college of Engineering and Technology</h4>
         <span>07/2015 - 05/2019, </span>
                 <span>6.61</span>
         </div>
         
-        <div class="hsc">
+        <div class="content-details">
             <h1>HSC</h1>
             <h4>Sri jayendra golden jubilee school</h4>
             <span>07/2015 - 05/2019, </span>
                 <span>6.61</span>
             </div>
         
-            <div class="sslc">
+            <div class="content-details">
                 <h1>SSLC</h1>
                 <h4>Sri jayendra golden jubilee schoo</h4>
                 <span>07/2015 - 05/2019, </span>
                 <span>6.61</span>
                 </div>
+  </div>
 </div>
 
              <!--Work experience-->
 
-<div class="content-work-experience">
-
+<div class="content">
+<h1>Work Experience</h1>
+<div class="content-details">
     <div class="content-details">
         <h1>Short term trainee</h1>
         <h4>Delphi TVS</h4>
@@ -82,7 +104,7 @@
         </div>
         
 
-        <div class="content-assistant">
+        <div class="content-details">
             <h1>Assistant technician</h1>
             <h4>Tata motors</h4>
         
@@ -101,7 +123,7 @@
                 </div>
             </div>
         
-            
+        </div>     
 </div>
 
 
@@ -109,22 +131,30 @@
 </div>
 
 
-<!---right content-->
+                <!---right content-->
+
+
+
 <div id="right">
+    <div class="content">
+    <div class="content-details">
+        <h1>Soft Skills</h1>
+        <div class="content-details">
+            <ul>
+              <li>CAD</li>
+                <li>Solid Work</li>
+                <li>CAD</li>
+                <li>Solid Work</li>
+        `   </ul>
+         </div>
+        </div>
+    </div>
+   <!--Personal project-->
 
-<div class="Soft-skills">
-    <h1>Soft Skills</h1>
-    <ul>
-        <li>CAD</li>
-        <li>Solid Work</li>
-        <li>CAD</li>
-        <li>Solid Work</li>
-    </ul>
-</div>
-
-<div class="personal-project">
-    <h1>Personal project</h1>
-    <div>
+<div class="content">
+    <div class="content-details">
+        <h1>Personal project</h1>
+    <div class="content-details">
         <h4>Synthesis and characteristics of waste plastic oil by
             ultrasonication (04/2019)</h4>
             <ul>
@@ -133,7 +163,7 @@
                     transesterification and ultrasonication</li>
             </ul>
     </div>
-    <div>
+    <div class="content-details">
         <h4>Gearless power transmission in angular position
             (12/2018)</h4>
             <ul>
@@ -142,55 +172,69 @@
             </ul>
     </div>
 </div>
+</div>
 
-<div>
-    <h1>Certificate</h1>
-    <div>
-        <h3>Prodigy workshop on Ansys and Creo (10/2018)</h3>
-        <p>Basics of the softwares and tools</p>
-    </div>
-    <div>
+<div class="content">
+   
+            <h1>Certificate</h1>
+
+            <div class="content-details">
+        <div class="content-details">
+            
+                <h3>Prodigy workshop on Ansys and Creo (10/2018)</h3>
+                <p>Basics of the softwares and tools</p>
+        </div>
+    <div class="content-details">
         <h3>3D Printing (09/2018)
         </h3>
         <p>Evloution of 3D printers and the usage of 3D printers in the
             current world</p>
     </div>
-    <div>
+    <div class="content-details">
         <h3>Recent trends in automobile engineering 2k18
             (02/2018)</h3>
         <p>A workshop about automobile basics , current trends and fifth
             wheel drive</p>
     </div>
+    </div>
+
 </div>
 
-<div class="languages">
+
+<div class="content">
+
+<div class="content-details">
     <h1>LANGUAGES</h1>
-    <div>
+    <div class="content-details">
+    <div class="content-details">
         <h3>Tamil</h3>
         <p>Mother tongue</p>
     </div>
 
-    <div>
+    <div class="content-details">
         <h3>Tamil</h3>
         <p>Mother tongue</p>
     </div>
 
-    <div>
+    <div class="content-details">
         <h3>English</h3>
         <p>Advanced in speaking and
             writing</p>
     </div>
-
+</div>
+</div>
 </div>
 
-<div>
+<div class="content">
+    <div class="content-details">
     <h1>Interests</h1>
-    <div>
+    <div class="content-details">
         <ul>
             <li>Badminton</li>
             <li>Swimming</li>
             <li>Volley ball</li>
         </ul>
+    </div>
     </div>
 </div>
 
