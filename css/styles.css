@@ -1,0 +1,43 @@
+*{
+  font-family: Open Sans;
+}
+
+
+#header {
+  background-color: rgb(49 60 78);
+  width: 100%;
+  padding: 30px;
+  height: 180px;
+}
+h1{
+  color: #419199;
+  text-decoration: underline;
+}
+
+
+
+#header h1 {
+  color: white;
+ 
+ 
+  text-decoration: none;
+}
+#header h4 {
+  color: #419199;
+}
+#header p {
+  padding: 1px;
+  color: white;
+}
+
+#contact {
+  text-align: center;
+  width: 100%;
+padding: 5px;
+  background-color: rgb(34 42 51);
+}
+#contact a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
